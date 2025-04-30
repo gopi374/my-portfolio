@@ -3,21 +3,18 @@ import { SectionTitle } from './ui/SectionTitle';
 import { ProjectCard } from './ui/ProjectCard';
 
 // Method 1: Import images directly
-import notesNeoImg from '/public/assets/notesneo.png';
+// import notesNeoImg from '/public/assets/notesneo.png';
 import neoCodeImg from '/public/assets/emi.png';
 import portfolioImg from '/public/assets/portfolio.png';
 
 const projects = [
   {
-    title: 'NotesNeo',
-    description: 'A comprehensive semester notes platform for students. Access academic notes anytime, anywhere with high-quality content.',
-    // Method 1: Use imported image
-    image: notesNeoImg,
-    // Method 2: Use relative path from public
-    // image: './assets/notesneo.png',
-    link: 'https://notesneo.app',
-    github: 'https://github.com/gopibanjara/notesneo',
-    tags: ['React', 'Node.js', 'MongoDB'],
+    title: 'karan-mehandi-art',
+    description: 'The Mehndi Art Website is a beautifully designed, static Next.js-powered website that showcases traditional and modern henna/mehndi art designs.',
+    image: '/assets/krn.png', // Using relative path from public directory
+    link: 'https://karan-mehandi-art.netlify.app/',
+    github: 'https://github.com/gopi374/karan-mehandi-art',
+    tags: ['React', 'Node.js', 'HTML/css'],
   },
   {
     title: 'EMI Calculater',
