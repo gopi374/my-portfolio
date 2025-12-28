@@ -4,8 +4,6 @@ import { ProjectCard } from './ui/ProjectCard';
 
 // Method 1: Import images directly
 // import notesNeoImg from '/public/assets/notesneo.png';
-import neoCodeImg from '/public/assets/emi.png';
-import portfolioImg from '/public/assets/portfolio.png';
 
 const projects = [
   {
@@ -17,19 +15,11 @@ const projects = [
     tags: ['React', 'Node.js', 'HTML/css'],
   },
   {
-    title: 'EMI Calculater',
-    description: 'A simple EMI calculator to help users calculate their monthly loan payments based on the principal amount, interest rate, and loan term.',
-    image: neoCodeImg,
-    link: 'https://calculator-emi-bolt.netlify.app/',
-    github: 'https://github.com/gopibanjara374/',
-    tags: ['React', 'Tailwind CSS', 'TypeScript'],
-  },
-  {
     title: 'Portfolio',
     description: 'Personal portfolio website showcasing projects and skills with modern design and smooth animations.',
-    image: portfolioImg,
-    link: 'https://gopibanjara.netlify.app',
-    github: 'https://github.com/gopibanjara/portfolio',
+    image: '/assets/portfolio.png',
+    link: 'https://portfolio-gopibanjara.netlify.app',
+    github: 'https://github.com/gopi374/my-portfolio',
     tags: ['React', 'Tailwind CSS', 'TypeScript'],
   },
 ];

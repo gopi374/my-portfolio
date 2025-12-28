@@ -82,9 +82,11 @@
 
 /* Optimize mobile performance */
 html, body {
-  overflow-x: hidden;
+  min-height: 100%;
   width: 100%;
-  overscroll-behavior-y: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
   -webkit-overflow-scrolling: touch;
 }
 

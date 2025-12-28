@@ -7,23 +7,23 @@ interface LinkProps {
   onClick?: () => void;
 }
 
-export function Link({ href, children, className = '', onClick }: LinkProps) {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const target = document.querySelector(href);
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
+function Link({ href, children, className, onClick }: LinkProps) {
+  const handleClick = (e: React.MouseEvent) => {
+    if (onClick) onClick();
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
-    onClick?.();
   };
 
   return (
-    <a
-      href={href}
-      onClick={handleClick}
-      className={`text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors ${className}`}
-    >
+    <a href={href} className={className} onClick={handleClick}>
       {children}
     </a>
   );
 }
+
+export default Link;

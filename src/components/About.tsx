@@ -1,10 +1,10 @@
-import { User2, Code2, Lightbulb } from "lucide-react";
+import { User, Code, Lightbulb } from "lucide-react";
 import { GoGoal } from "react-icons/go";
 import { SectionTitle } from "./ui/SectionTitle";
 
 const aboutSections = [
   {
-    icon: User2,
+    icon: User,
     title: "Who I Am",
     description: [
       "A full-stack developer having interest in software engineering.",
@@ -14,7 +14,7 @@ const aboutSections = [
     color: "bg-blue-600",
   },
   {
-    icon: Code2,
+    icon: Code,
     title: "What I Do",
     description: [
       "Develop high-performance web apps using modern tech stacks.",
@@ -60,7 +60,7 @@ export function About() {
         <div className="max-w-5xl mx-auto mb-16 text-center">
           <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
             Hey there! 👋 I'm <span className="text-blue-600 font-semibold">Gopi Banjara</span>,
-            a Full-Stack Developer and final-year Computer Science Engineering student.
+            a Full-Stack Developer and second-year Computer Science Engineering student.
             I love transforming ideas into scalable web applications and solving complex coding challenges. 
             My journey in tech revolves around continuous learning, experimenting with new technologies, and building solutions that make an impact.
           </p>

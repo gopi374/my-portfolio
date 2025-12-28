@@ -4,7 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
-// import { GitHub } from './components/GitHub';
+import { GitHub } from './components/GitHub';
 // import { Leetcode } from './components/Leetcode';
 // import { Badges } from './components/Badges';
 // import { Blogs } from "./components/Blogs";
@@ -17,8 +17,8 @@ import { Footer } from './components/Footer';
 // import { useLoading } from './hooks/useLoading';
 // import { CustomCursor } from "./components/ui/CustomCursor";
 import { Analytics } from '@vercel/analytics/react';
-import { useLoading } from './hooks/useLoading';
-import { LoadingScreen } from './components/loading/LoadingScreen';
+import useLoading from './hooks/useLoading';
+import LoadingScreen from './components/loading/LoadingScreen';
 
 function App() {
   const isLoading = useLoading();
@@ -33,7 +33,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        {/* <GitHub />
+        <GitHub />{/*
         <Leetcode />
         <Badges />
         <Blogs />
@@ -42,7 +42,7 @@ function App() {
         <Education />
         <Contact />
         <Footer />
-        <Analytics />
+        {import.meta.env.PROD && <Analytics />}
       </div>
     </>
   );

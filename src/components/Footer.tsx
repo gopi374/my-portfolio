@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from './Link';
 import { SocialLinks } from './hero/SocialLinks';
 import { FaReact } from 'react-icons/fa';
 import { SiVite } from 'react-icons/si';
@@ -11,12 +10,12 @@ interface FooterLinkProps {
 
 function FooterLink({ href, children }: FooterLinkProps) {
   return (
-    <Link
+    <a
       href={href}
       className="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
     >
       {children}
-    </Link>
+    </a>
   );
 }
 
