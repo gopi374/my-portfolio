@@ -52,7 +52,7 @@ export function Hero() {
               <div className="inline-block bg-blue-100/10 backdrop-blur-sm text-blue-300 text-sm font-medium px-4 py-2 rounded-full">
               Hey! <span className="inline-block origin-[70%_70%] animate-wave">👋</span> I'm
               </div>
-              <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient">
+              <h1 className="text-4xl py-5 lg:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient">
                 ~gopi Banjara
               </h1>
               <div className="text-xl md:text-2xl text-gray-300">
@@ -77,7 +77,7 @@ export function Hero() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-full blur-3xl animate-pulse" />
             <img
-              src="/assets/profile.jpg"
+              src="/assets/p.png"
               alt="Gopi Banjara"
                 className="relative w-full max-w-lg mx-auto rounded-full shadow-2xl transform hover:scale-105 transition-transform duration-500 ring-4 ring-white/10"
             />
@@ -96,5 +96,6 @@ export function Hero() {
         </div>
       </div>
     </section>
+    
   );
 }

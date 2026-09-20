@@ -14,11 +14,6 @@ const links = [
     label: 'LinkedIn',
   },
   {
-    href: 'https://www.instagram.com/gopi.426/',
-    icon: <Instagram className="w-6 h-6 text-[#E1306C]" />,
-    label: 'Instagram',
-  },
-  {
     href: 'https://wa.me/917389600475',
     icon: <FaWhatsapp className="w-6 h-6 text-[#25D366]" />,
     label: 'WhatsApp',

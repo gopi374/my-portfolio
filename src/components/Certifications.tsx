@@ -7,6 +7,27 @@ import "slick-carousel/slick/slick-theme.css";
 
 const certifications = [
   {
+    title: "AWS Secruity",
+    issuer: "Amazon Web Services",
+    date: "Dec 2025",
+    link: "https://www.linkedin.com/in/gopi-banjara/details/certifications/",
+    image: '/assets/image3.png',
+  },
+  {
+    title: "Data Analytics Job Simulation",
+    issuer: "Deloitte Australia",
+    date: "Jan 2026",
+    link: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_694a6564e83f31dcdb71f5fd_1769346098155_completion_certificate.pdf",
+    image: '/assets/image2.png',
+  },
+  {
+    title: "C++ Essentials 1",
+    issuer: "CISCO",
+    date: "feb 2026",
+    link: "https://www.credly.com/badges/d4e6928b-690a-46f0-9599-7b58af251222/linked_in_profile",
+    image: '/assets/image1.png',
+  },
+  {
     title: "Web Development with AI-Tools",
     issuer: "Sunstone & GOOGLE DEVELOPER GROUPS",
     date: "Jan 2025",

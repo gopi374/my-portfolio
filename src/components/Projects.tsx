@@ -7,6 +7,22 @@ import { ProjectCard } from './ui/ProjectCard';
 
 const projects = [
   {
+    title: 'Food share',
+    description: 'A modern Full stack application for a Food Donation Platform that helps reduce food waste by connecting food donors with NGOs and food banks. ',
+    image: '/assets/food.png', // Using relative path from public directory
+    link: 'https://food-share1.netlify.app/',
+    github: 'https://github.com/gopi374/Food-Management-frontend',
+    tags: ['React', 'Node.js', 'HTML/css','JS','MONGODB','Express JS'],
+  },
+  {
+    title: 'Expense Tracker',
+    description: 'Built full-stack expense platform with 5+ core features for tracking and financial summaries Implemented JWT authentication and protected APIs for secure user data',
+    image: '/assets/image.png', // Using relative path from public directory
+    link: 'https://expense-tracker-0906.netlify.app/',
+    github: 'https://github.com/gopi374/Expense_Tracker',
+    tags: ['React', 'Node.js', 'HTML/css','JS','MONGODB','Express JS'],
+  },
+  {
     title: 'karan-mehandi-art',
     description: 'The Mehndi Art Website is a beautifully designed, static Next.js-powered website that showcases traditional and modern henna/mehndi art designs.',
     image: '/assets/krn.png', // Using relative path from public directory

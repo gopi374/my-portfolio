@@ -6,12 +6,15 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
     -webkit-tap-highlight-color: transparent;
   }
 
   body {
     @apply antialiased;
     text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    overflow-x: hidden;
   }
 
   /* Reduce motion if user prefers it */
@@ -80,13 +83,8 @@
   @apply motion-safe:animate-[floating_4s_ease-in-out_infinite];
 }
 
-/* Optimize mobile performance */
+/* Mobile & touch optimizations */
 html, body {
-  min-height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  overscroll-behavior-y: contain;
   -webkit-overflow-scrolling: touch;
 }
 

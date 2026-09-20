@@ -1,7 +1,7 @@
 import React from "react";
 import { SectionTitle } from "./ui/SectionTitle";
 import { SkillCard } from "./ui/SkillCard";
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiRedux, SiExpress, SiGraphql, SiMongodb, SiPrisma, SiCplusplus, SiGit, SiGithub, SiPostman, SiVite, SiVercel } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiRedux, SiExpress, SiGraphql, SiMongodb, SiPrisma, SiCplusplus, SiGit, SiGithub, SiPostman, SiVite, SiVercel, SiRender } from "react-icons/si";
 import { FaNodeJs, FaPython, FaJava, FaAws } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -24,6 +24,7 @@ const skills = [
   { name: "Git", icon: SiGit, color: "#f34f29", url: "https://git-scm.com/" },
   { name: "GitHub", icon: SiGithub, color: "# ", url: "https://github.com/" },
   { name: "Vercel", icon: SiVercel, color: "#", url: "https://vercel.com/" },
+  { name: "Render", icon: SiRender, color: "#555", url: "https://render.com/" },
 ];
 
 export function Skills() {
